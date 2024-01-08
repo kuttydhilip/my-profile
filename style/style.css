@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-navigations{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background: #FFF;
+    color: #000;
+    
+}
+.logo{
+    margin-left: 80px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 80, 80);
+}
+
+.topnavright{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul li{
+    display: flex;
+    justify-content: space-around;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    width: 120px;
+}
+.background-of-login{
+    display: flex;
+    justify-content: space-around;
+    background: #1C69DC;
+    border-radius: 6px;
+    border-color: #1C69DC;
+    padding: 8px 15px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.profile{
+    border-radius:50%;
+    border: 1px solid #000;
+    margin-right: 30px;
+    height: 50px;
+    width: 50px;
+}
+.cursor{
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    right: 40%;
+    background-image: url(../img/butterfly.gif);
+    background-repeat: no-repeat;
+    position: absolute; 
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: all 3s ease;
+    z-index: 1000;
+}
